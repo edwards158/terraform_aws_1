@@ -1,3 +1,5 @@
+##  Connect to Bastion EC2 Instance and Test
+```t
 # Connect to Bastion EC2 Instance from local desktop
 ssh -i private-key/terraform-key.pem ec2-user@<PUBLIC_IP_FOR_BASTION_HOST>
 
@@ -18,3 +20,14 @@ Observation:
 6) # Additionalyy To verify userdata passed to Instance
 curl http://169.254.169.254/latest/user-data 
 
+```
+
+## Clean-Up
+```t
+# Terraform Destroy
+terraform destroy -auto-approve
+
+# Clean-Up
+rm -rf .terraform*
+rm -rf terraform.tfstate*
+```
