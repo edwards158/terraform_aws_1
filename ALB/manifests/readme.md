@@ -34,3 +34,5 @@ terraform destroy -auto-approve
 rm -rf .terraform*
 rm -rf terraform.tfstate*
 ```
+
+![alt text](ALB.png)
