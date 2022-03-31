@@ -32,4 +32,4 @@ rm -rf .terraform*
 rm -rf terraform.tfstate*
 ```
 
-![alt text](http://arch1.png)
+![alt text](arch1.png)
