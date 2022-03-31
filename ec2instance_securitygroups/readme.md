@@ -31,3 +31,5 @@ terraform destroy -auto-approve
 rm -rf .terraform*
 rm -rf terraform.tfstate*
 ```
+
+![alt text](http://arch1.png)
